@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Website</title>
+  <link href="code.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Smart Lightning System</h1>
+  <div class=flexbox>
+
+    <div class="card">
+      <h3>Change the color of Room 1</h3>
+      <input type="color" id="head" name="head" value="#e66465">
+
+    </div>
+
+    <div class="card">
+      <h3>Change the color of Room 2</h3>
+
+      <input type="color" id="body" name="body" value="#f6b73c">
+    </div>
+
+    <div class="card">
+      <h3>Change the color of Room 3</h3>
+      <input type="color" id="body" name="body" value="#f6b73c">
+    </div>
+
+    <div class="card">
+      <h3>Change the Color of Hall 1</h3>
+      <div id="myDIV">
+        
+      </div>
+      <button class="button button1" onclick="myFunction()">Change It</button>
+
+      <script>
+        function myFunction() {
+          document.getElementById("myDIV").style.backgroundColor = "blue";
+        }
+      </script>
+
+    </div>
+
+    <div class="card">
+      <h3>Change the Color of Hall 2</h3>
+      <div id="mineDIV">
+        
+      </div>
+      <button class="button button2" onclick="mineFunction()">Change It</button>
+
+      <script>
+        function mineFunction() {
+          document.getElementById("mineDIV").style.backgroundColor = "Yellow";
+        }
+      </script>
+
+    </div>
+
+    <div class="card">
+      <h3>Change the Color of Hall 3</h3>
+      <div id="DIV">
+        
+      </div>
+      <button class="button button3" onclick="Function()">Change It</button>
+
+      <script>
+        function Function() {
+          document.getElementById("DIV").style.backgroundColor = "Green";
+        }
+      </script>
+
+    </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
